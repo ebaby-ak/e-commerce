@@ -31,9 +31,6 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Walkthrough
 
-Walkthrough Video Link
-
+[Walkthrough Video Link](https://drive.google.com/file/d/1tuDIUiBXEPMfj-QkaaKB4n5NPVTKpHaU/view?usp=sharing)
 ## License
 None
-
-### Installation
