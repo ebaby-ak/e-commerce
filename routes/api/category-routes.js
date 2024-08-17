@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
     ],
   })
   .then(dbCategoryData => res.json(dbCategoryData))
-  .catch(err => {
+  .catch((err) => {
      console.log(err);
      res.status(500).json(err);
    });
@@ -30,7 +30,7 @@ router.get("/:id", (req, res) => {
     where: {
       id: req.params.id,
     },
-    attributes: ['id','category_name'],
+
     include: [
       {
         model: Product,
@@ -39,7 +39,7 @@ router.get("/:id", (req, res) => {
     ],
   })
   .then(dbCategoryData => res.json(dbCategoryData))
-  .catch(err => {
+  .catch((err) => {
      console.log(err);
      res.status(500).json(err);
    });
